@@ -35,3 +35,6 @@ select * from tb_atributos where valor > 500;
 
 select * from tb_atributos where valor < 500;
 
+select * from tb_atributos;
+
+update tb_atributos SET valor = 600 where id = 2;
